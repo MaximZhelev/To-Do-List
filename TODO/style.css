@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
+
+.container, .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    font-size: 2rem;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    width: 70%;
+}
+
+.minus {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: black;
+    background-color: #E74C3C;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.minus:hover {
+    background-color: yellowgreen;
+}
+
+.minus:focus {
+    outline: none;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin: 0.5rem;
+    height: 10%;
+}
+
+#plus {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: black;
+    background-color: green;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+#plus:focus {
+    outline: none;
+}
+
+#plus:hover {
+    background-color: cadetblue;
+}
+
+#text {
+    width: 90%;
+    margin: 0.5rem;
+    height: 50%;
+    font-size: 2rem;
+}

@@ -5,6 +5,11 @@ Can add notes and store them in local storage of browser so even refreshing the 
 todos will be there.
 It also shows daily date.
 Notes can be removed with simple button on their side.
+            Screenshot
+                ||
+                ||
+                ||
+                \/
 
 
 

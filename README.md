@@ -9,6 +9,7 @@ Notes can be removed with simple button on their side.
                 ||
                 ||
                 ||
+                ||
                 \/
 
 
